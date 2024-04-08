@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d9d3e8386b8a17e4f831387296f52704, type: 2}
     - target: {fileID: 1086148001245226580, guid: 3bda2cca27fa245a2ae74f1de243a14b, type: 3}
       propertyPath: m_Name
-      value: AcaciaLogBlock Variant
+      value: AcaciaLogBlock
       objectReference: {fileID: 0}
     - target: {fileID: 4152477599549133218, guid: 3bda2cca27fa245a2ae74f1de243a14b, type: 3}
       propertyPath: m_Name
