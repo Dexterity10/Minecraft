@@ -9,20 +9,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1534745322121016301, guid: 371025be4f44b4077a930459c8954ad9, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1534745322121016301, guid: 371025be4f44b4077a930459c8954ad9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ef25bfc83deb91444be80baa292a7138, type: 2}
-    - target: {fileID: 1534745322121016301, guid: 371025be4f44b4077a930459c8954ad9, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: ef25bfc83deb91444be80baa292a7138, type: 2}
+      objectReference: {fileID: 2100000, guid: e3477ae53fff34b1b885a0a159f7d3ab, type: 2}
     - target: {fileID: 2348035624320710343, guid: 371025be4f44b4077a930459c8954ad9, type: 3}
       propertyPath: m_Name
-      value: StoneBricksBlock
+      value: CobblestoneBlock
       objectReference: {fileID: 0}
     - target: {fileID: 3827677146273987111, guid: 371025be4f44b4077a930459c8954ad9, type: 3}
       propertyPath: m_Enabled
