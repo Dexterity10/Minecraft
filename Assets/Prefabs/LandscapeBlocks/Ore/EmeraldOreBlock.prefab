@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1112721026104787383, guid: 5215050567d484902b14f01e8fd790d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1112721026104787383, guid: 5215050567d484902b14f01e8fd790d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1112721026104787383, guid: 5215050567d484902b14f01e8fd790d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1112721026104787383, guid: 5215050567d484902b14f01e8fd790d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6271697977752384485, guid: 5215050567d484902b14f01e8fd790d2, type: 3}
       propertyPath: m_Name
-      value: EmeraldBlock 1
+      value: EmeraldOreBlock
       objectReference: {fileID: 0}
     - target: {fileID: 7120449793328510671, guid: 5215050567d484902b14f01e8fd790d2, type: 3}
       propertyPath: m_Materials.Array.data[0]

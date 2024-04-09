@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 1ac016677112c445a8a342d49ae3bb9d, type: 2}
     - target: {fileID: 2348035624320710343, guid: 371025be4f44b4077a930459c8954ad9, type: 3}
       propertyPath: m_Name
-      value: OakPlanks 1
+      value: AcaciaPlanks
       objectReference: {fileID: 0}
     - target: {fileID: 3827677146273987111, guid: 371025be4f44b4077a930459c8954ad9, type: 3}
       propertyPath: m_Enabled
