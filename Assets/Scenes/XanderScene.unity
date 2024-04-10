@@ -3525,7 +3525,7 @@ MonoBehaviour:
   topBlock: {fileID: 4572772038458449592, guid: 4cc6edcc11f644cb79fda0f97d48b1ac, type: 3}
   underBlock: {fileID: 2316200434386349182, guid: c1825690d7eb746ddb3fa56ff00dd78e, type: 3}
   pointBlock: {fileID: 919132149155446097, guid: 9e26c3623e4bd49be9cbd204f6f82afd, type: 3}
-  chunks: 2
+  chunks: 1
 --- !u!4 &1086045086
 Transform:
   m_ObjectHideFlags: 0
