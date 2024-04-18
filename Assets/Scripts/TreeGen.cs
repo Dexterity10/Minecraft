@@ -6,6 +6,7 @@ public class TreeGen : MonoBehaviour
 {
     public GameObject trunkBlock;
     public GameObject leavesBlock;
+    public GameObject endLeaf;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +38,8 @@ public class TreeGen : MonoBehaviour
             Branch(Random.Range(0, 4), growPoint);
             Branch(Random.Range(0, 4), growPoint);
             growPoint += new Vector3Int(0, 1, 0);
+            Instantiate(trunkBlock, growPoint, trunkBlock.transform.rotation);
+            growPoint += new Vector3Int(0, 1, 0);
         }
 
     }
@@ -49,11 +52,24 @@ public class TreeGen : MonoBehaviour
             Vector3Int.back,
             Vector3Int.left
         };
-        for (int i = 0; i < growPoint.y - 2; i++)
+        for (int i = 0; i < 4 * Mathf.Sin(0.3f * growPoint.y); i++)
         {
+            //branch generation
             growPoint += branchDirections[rand];
             GameObject branch = Instantiate(trunkBlock, growPoint, trunkBlock.transform.rotation);
             branch.transform.Rotate(branchDirections[(rand + 1) % 4], 90);
+
+            //leaf generation
+            GameObject leaf = Instantiate(leavesBlock, growPoint, leavesBlock.transform.rotation);
+            leaf.transform.Rotate(branchDirections[(rand + 1) % 4], 90);
+
+
+        }
+        // end leaf
+        if (4 * Mathf.Sin(0.3f * growPoint.y) != 0)
+        {
+            growPoint += branchDirections[rand];
+            Instantiate(endLeaf, growPoint, leavesBlock.transform.rotation);
         }
     }
 
