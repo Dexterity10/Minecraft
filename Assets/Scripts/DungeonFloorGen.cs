@@ -27,22 +27,22 @@ public class DungeonFloorGen : MonoBehaviour
 
 
                 startPos = new Vector3Int(b * 8, 0, 8 * i);
-                if ((i+b) % 2 == 0)
+                if ((i + b) % 2 == 0)
                 {
-                    
-                    int chooseItem = Random.Range(0, room.Length);
-                    Debug.Log(room.Length);
-                    Debug.Log(chooseItem);
-                    chosenRoom = room[chooseItem];
 
+                    int chooseItem = Random.Range(0, room.Length);
+                    chosenRoom = room[chooseItem];
+                    
                 }
                 else
                 {
                     int chooseItem = Random.Range(0, hall.Length);
                     chosenRoom = hall[chooseItem];
+                    transform.Rotate(0,0,Random.Range(0, 4) * 90);
+                    
                 }
+                
                 makeRoom(chosenRoom);
-
             }
 
 
@@ -57,7 +57,7 @@ public class DungeonFloorGen : MonoBehaviour
 
     void makeRoom(GameObject roomtype)
     {
-        Instantiate(floor, startPos, floor.transform.rotation);
+        //Instantiate(floor, startPos, floor.transform.rotation);
         Instantiate(chosenRoom, startPos, chosenRoom.transform.rotation);
 
     }

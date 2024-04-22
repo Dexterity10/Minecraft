@@ -828,7 +828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 958838243266442580, guid: 6ced91a5fa16e434aaa0b0f213eca00d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.375
+      value: 3.2375
       objectReference: {fileID: 0}
     - target: {fileID: 958838243266442580, guid: 6ced91a5fa16e434aaa0b0f213eca00d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2132,6 +2132,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2596293484123936374, guid: 8e03fefa6e11e7a49ab4d99853f2cfa0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596293484123936374, guid: 8e03fefa6e11e7a49ab4d99853f2cfa0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596293484123936374, guid: 8e03fefa6e11e7a49ab4d99853f2cfa0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 2596293484123936374, guid: 8e03fefa6e11e7a49ab4d99853f2cfa0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -3976,7 +3988,7 @@ GameObject:
   - component: {fileID: 764757756}
   - component: {fileID: 764757757}
   m_Layer: 0
-  m_Name: DungeonFloorGenerator
+  m_Name: DunGen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4013,7 +4025,7 @@ MonoBehaviour:
   floor: {fileID: 5361056941034984709, guid: 69a9f9a227b7a47f194f126f161c621b, type: 3}
   room:
   - {fileID: 8954870664742453809, guid: 1914026ccbc244132a6ecc0889f86934, type: 3}
-  - {fileID: 8954870664742453809, guid: 9d92adf9fd79a4b65be080d5be64b8e2, type: 3}
+  - {fileID: 6229107465284779899, guid: 35dd8621a96bd4460a1c46ba09a757ab, type: 3}
   hall:
   - {fileID: 5361056941034984709, guid: fbef9c0f0910c4684acc1a6e15307f52, type: 3}
   - {fileID: 5361056941034984709, guid: c53149a6c701a4a6596b90ad7f0c332a, type: 3}
@@ -8203,7 +8215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1531361252883505875, guid: 832b12b95012a764e862423e54667cce, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.375
+      value: 3.2375
       objectReference: {fileID: 0}
     - target: {fileID: 1531361252883505875, guid: 832b12b95012a764e862423e54667cce, type: 3}
       propertyPath: m_LocalPosition.z
