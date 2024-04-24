@@ -4025,10 +4025,16 @@ MonoBehaviour:
   floor: {fileID: 5361056941034984709, guid: 69a9f9a227b7a47f194f126f161c621b, type: 3}
   room:
   - {fileID: 8954870664742453809, guid: 1914026ccbc244132a6ecc0889f86934, type: 3}
-  - {fileID: 6229107465284779899, guid: 35dd8621a96bd4460a1c46ba09a757ab, type: 3}
+  - {fileID: 926017243543110852, guid: 9d92adf9fd79a4b65be080d5be64b8e2, type: 3}
+  - {fileID: 926017243543110852, guid: 9d92adf9fd79a4b65be080d5be64b8e2, type: 3}
+  - {fileID: 926017243543110852, guid: 9d92adf9fd79a4b65be080d5be64b8e2, type: 3}
+  - {fileID: 926017243543110852, guid: 9d92adf9fd79a4b65be080d5be64b8e2, type: 3}
+  - {fileID: 926017243543110852, guid: 9d92adf9fd79a4b65be080d5be64b8e2, type: 3}
+  - {fileID: 926017243543110852, guid: 9d92adf9fd79a4b65be080d5be64b8e2, type: 3}
   hall:
-  - {fileID: 5361056941034984709, guid: fbef9c0f0910c4684acc1a6e15307f52, type: 3}
-  - {fileID: 5361056941034984709, guid: c53149a6c701a4a6596b90ad7f0c332a, type: 3}
+  - {fileID: 5361056941034984709, guid: 506a29d045cd24fecb8dc9cb76f6bf4b, type: 3}
+  - {fileID: 5361056941034984709, guid: 6692772ed28534b7fbf5a267501664f9, type: 3}
+  - {fileID: 5361056941034984709, guid: 431f2e8ce79134857a788fe3b84ac2f3, type: 3}
 --- !u!4 &792015436 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8713695629328237717, guid: 9c32bcf6e74b74084a61d268f7549a1f, type: 3}

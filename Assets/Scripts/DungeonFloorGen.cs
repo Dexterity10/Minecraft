@@ -4,16 +4,12 @@ using UnityEngine;
 
 public class DungeonFloorGen : MonoBehaviour
 {
-    public Vector3Int startPos = new Vector3Int(0, 0, 0);
+    public Vector3Int startPos;
+    private Vector3Int DunGenPos;
     GameObject chosenRoom;
-    public GameObject floor;
+    GameObject chosenFloor;
+    public GameObject[] floor;
     public GameObject[] room;
-    public GameObject[] hall;
-    //public GameObject[] roomlist = {
-    //    none,
-    //    simple
-
-    //};
 
     // Start is called before the first frame update
     void Start()
@@ -24,41 +20,34 @@ public class DungeonFloorGen : MonoBehaviour
 
             for (int i = 0; i < 8; i++)
             {
+                int chooseRoom = Random.Range(0, room.Length);
+                chosenRoom = room[chooseRoom];
+
+                DunGenPos = startPos + new Vector3Int(b * 8, 0, 8 * i);
 
 
-                startPos = new Vector3Int(b * 8, 0, 8 * i);
-                if ((i + b) % 2 == 0)
-                {
+                int chooseItem = Random.Range(0, floor.Length);
+                chosenFloor = floor[chooseItem];
+                transform.Rotate(0, 0, Random.Range(0, 4) * 90);
 
-                    int chooseItem = Random.Range(0, room.Length);
-                    chosenRoom = room[chooseItem];
-                    
-                }
-                else
-                {
-                    int chooseItem = Random.Range(0, hall.Length);
-                    chosenRoom = hall[chooseItem];
-                    transform.Rotate(0,0,Random.Range(0, 4) * 90);
-                    
-                }
-                
                 makeRoom(chosenRoom);
-            }
 
+                makeFloor(chosenFloor);
+            }
 
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     void makeRoom(GameObject roomtype)
     {
-        //Instantiate(floor, startPos, floor.transform.rotation);
-        Instantiate(chosenRoom, startPos, chosenRoom.transform.rotation);
+
+        Instantiate(chosenRoom, DunGenPos, chosenRoom.transform.rotation);
+
+    }
+    void makeFloor(GameObject floortype)
+    {
+
+        Instantiate(chosenFloor, DunGenPos, chosenFloor.transform.rotation);
 
     }
 }
