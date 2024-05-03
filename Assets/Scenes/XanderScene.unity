@@ -4021,7 +4021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e27655e3bc541719374012e39d93e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: -16, z: 0}
+  startPos: {x: 0, y: 0, z: 0}
   capPos: {x: 4, y: 4, z: 4}
   stone: {fileID: 8788149377043742459, guid: 9ff1750ebbbf44c30969e6ed90024504, type: 3}
   floor:

@@ -17,7 +17,7 @@ public class DungeonFloorGen : MonoBehaviour
     void Start()
     {
 
-        for (int y = startPos.y; y < startPos.y + capPos.y; y--)
+        for (int y = startPos.y; y > startPos.y - capPos.y; y--)
         {
 
             for (int x = startPos.x; x < startPos.x + capPos.x; x++)
@@ -35,7 +35,7 @@ public class DungeonFloorGen : MonoBehaviour
 
 
                     fillAir(DunGenPos.x, DunGenPos.y, DunGenPos.z);
-                    valueRoom(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone");
+                    makeRoom(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone");
                     makeFloor(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone");
                 }
 
@@ -51,7 +51,7 @@ public class DungeonFloorGen : MonoBehaviour
         }
     }
 
-    void valueRoom(int x, int y, int z, string block)
+    void makeRoom(int x, int y, int z, string block)
     {
         //makeWall(x, y, z, "x");
         //makeWall(x, y, z, "z");
