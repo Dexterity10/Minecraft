@@ -17,7 +17,7 @@ public class DungeonFloorGen : MonoBehaviour
     void Start()
     {
 
-        for (int y = startPos.y; y < startPos.y + capPos.y; y++)
+        for (int y = startPos.y; y < startPos.y + capPos.y; y--)
         {
 
             for (int x = startPos.x; x < startPos.x + capPos.x; x++)
@@ -34,10 +34,9 @@ public class DungeonFloorGen : MonoBehaviour
 
 
 
-                    chunk(DunGenPos.x, DunGenPos.y, DunGenPos.z, "air", 1, 1, 1);
+                    fillAir(DunGenPos.x, DunGenPos.y, DunGenPos.z);
                     valueRoom(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone");
-                    valueFloor(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone");
-
+                    makeFloor(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone");
                 }
 
             }
@@ -54,74 +53,94 @@ public class DungeonFloorGen : MonoBehaviour
 
     void valueRoom(int x, int y, int z, string block)
     {
+        //makeWall(x, y, z, "x");
+        //makeWall(x, y, z, "z");
 
-        for (int b = 0; b < 8; b++)
-        {
-            // "make four pillars at the corners"
-            world[new Vector3Int(x, y + b, z)] = block;
-            world[new Vector3Int(x + 7, y + b, z)] = block;
-            world[new Vector3Int(x, y + b, z + 7)] = block;
-            world[new Vector3Int(x + 7, y + b, z + 7)] = block;
-        }
+        //make doorways
+        //make ceiling
+
+    }
+    void makeFloor(int x, int y, int z, string block) //also makes ceiling; alternatively, creates stairs
+    {
+
         for (int a = 0; a < 8; a++)
         {
-            //"make an 8x8 ring"
 
-            if (a == 0 || a == 8)
+            for (int c = 0; c < 8; c++)
             {
+                world[new Vector3Int(x + a, y, z + c)] = block;
+
+            }
+
+        }
+        if (Random.Range(0, floor.Length + 1) == floor.Length)
+        {
+            //make stairs
+            for (int ab = 0; ab < 8; ab++)
+            {
+
                 for (int c = 0; c < 8; c++)
                 {
-                    // "make a line"
-                    world[new Vector3Int(x + a, y + 7, z + c)] = block;
-                    world[new Vector3Int(x + 7, y + 7, z + 7 - c)] = block;
+                    world[new Vector3Int(x + ab, y + ab, z + c)] = block;
 
                 }
+
             }
-            else
+        }
+        else
+        { //make ceiling
+            for (int a = 0; a < 8; a++)
             {
-                for (int c = 0; c < 8; c += 7)
+
+                for (int c = 0; c < 8; c++)
                 {
                     world[new Vector3Int(x + a, y + 7, z + c)] = block;
 
+                }
+
+            }
+        }
+
+
+
+    }
+    void fillAir(int x, int y, int z)
+    {
+        //fill 8x8x8 area with air
+        for (int c = 0; c < 8; c++)
+        {
+            for (int b = 0; b < 8; b++)
+            {
+
+                for (int a = 0; a < 8; a++)
+                {
+                    world[new Vector3Int(x + a, y + b, z + c)] = "air";
                 }
             }
         }
     }
-    void valueFloor(int x, int y, int z, string block)
+    void makeWall(int x, int y, int z, string dir)
     {
-
-        if (Random.Range(0, floor.Length) == floor.Length)
+        if (dir == "x")
         {
             for (int b = 0; b < 8; b++)
             {
                 for (int a = 0; a < 8; a++)
                 {
-                    for (int c = 0; c < 8; c++)
-                    {
-                        world[new Vector3Int(x + a, y + b, z + c)] = block;
-                    }
+                    world[new Vector3Int(x + a, y + b, z)] = "stone";
                 }
             }
         }
-        else
-        {
-            chunk(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone", 1, 0, 1);
-        }
-    }
-    void chunk(int x, int y, int z, string block, int useA, int useB, int useC)
-    {
-        //8x8 chunk.
-        //useA = 0 will make a wall perpendicular to the player
-        //useB = 0 will make a flat platform
-        //useC = 0 will make a wall facing the player
-        for (int c = 0; c < 8 * useA; c++)
-        {
-            for (int b = 0; b < 8 * useB; c++)
 
-                for (int a = 0; a < 8 * useC; a++)
+        else //if dir == "z"
+        {
+            for (int b = 0; b < 8; b++)
+            {
+                for (int c = 0; c < 8; c++)
                 {
-                    world[new Vector3Int(x + a, y + b, z + c)] = block;
+                    world[new Vector3Int(x, y + b, z + c)] = "stone";
                 }
+            }
         }
     }
 }
