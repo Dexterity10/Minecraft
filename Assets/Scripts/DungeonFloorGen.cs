@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DungeonFloorGen : MonoBehaviour
 {
-    public Vector3Int startPos;
-    public Vector3Int capPos;
-    private Vector3Int DunGenPos;
-    GameObject chosenRoom;
-    GameObject chosenFloor;
+    public Vector3Int startPos; // should be -64,-64,-32 when completely finished
+    public Vector3Int capPos; // the max amount of *rooms* that should spawn, not blocks
+    Vector3Int DunGenPos;
+    public GameObject stone;
+    //GameObject air;
     public GameObject[] floor;
     public GameObject[] room;
     Dictionary<Vector3Int, string> world = new Dictionary<Vector3Int, string>();
@@ -17,32 +17,37 @@ public class DungeonFloorGen : MonoBehaviour
     void Start()
     {
 
-        for (int y = startPos.y; y < startPos.y + 8; y++)
+        for (int y = startPos.y; y < startPos.y + capPos.y; y++)
         {
 
-            for (int x = startPos.x; x < startPos.x + 8; x++)
+            for (int x = startPos.x; x < startPos.x + capPos.x; x++)
             {
 
-                for (int z = startPos.z; z < startPos.z + 8; z++)
+                for (int z = startPos.z; z < startPos.z + capPos.z; z++)
                 {
                     int chooseItem = Random.Range(0, room.Length);
-                    chosenRoom = room[chooseItem];
+
 
                     DunGenPos = startPos + new Vector3Int(z * 8, y * 8, x * 8);
 
-
                     int chooseItem2 = Random.Range(0, floor.Length);
-                    chosenFloor = floor[chooseItem2];
-                    transform.Rotate(0, 0, Random.Range(0, 4) * 90);
 
+
+
+                    chunk(DunGenPos.x, DunGenPos.y, DunGenPos.z, "air", 1, 1, 1);
                     valueRoom(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone");
                     valueFloor(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone");
-                    foreach (var thing in world)
-                    {
-                        Debug.Log(thing);
-                    }
+
                 }
 
+            }
+        }
+        //spawn from dictionary
+        foreach (var block in world)
+        {
+            if (block.Value == "stone")
+            {
+                Instantiate(stone, block.Key, Quaternion.identity);
             }
         }
     }
@@ -50,7 +55,7 @@ public class DungeonFloorGen : MonoBehaviour
     void valueRoom(int x, int y, int z, string block)
     {
 
-        for (int b = 0; b < y + 7; b++)
+        for (int b = 0; b < 8; b++)
         {
             // "make four pillars at the corners"
             world[new Vector3Int(x, y + b, z)] = block;
@@ -58,25 +63,25 @@ public class DungeonFloorGen : MonoBehaviour
             world[new Vector3Int(x, y + b, z + 7)] = block;
             world[new Vector3Int(x + 7, y + b, z + 7)] = block;
         }
-        for (int a = 0; a < x + 7; a++)
+        for (int a = 0; a < 8; a++)
         {
-            // "make an 8x8 ring"
+            //"make an 8x8 ring"
 
-            if (a % 7 == 0)
+            if (a == 0 || a == 8)
             {
-                for (int c = 0; c < z + 7; c++)
+                for (int c = 0; c < 8; c++)
                 {
                     // "make a line"
-                    world[new Vector3Int(x + a, y + 8, z + c)] = block;
+                    world[new Vector3Int(x + a, y + 7, z + c)] = block;
+                    world[new Vector3Int(x + 7, y + 7, z + 7 - c)] = block;
 
                 }
             }
             else
             {
-                for (int c = 0; c < z + 7; c += 7)
+                for (int c = 0; c < 8; c += 7)
                 {
-
-                    world[new Vector3Int(x + a, y + 8, z + c)] = block;
+                    world[new Vector3Int(x + a, y + 7, z + c)] = block;
 
                 }
             }
@@ -84,20 +89,40 @@ public class DungeonFloorGen : MonoBehaviour
     }
     void valueFloor(int x, int y, int z, string block)
     {
-        //basic 8x8 floor
-        for (int c = 0; c < y + 7; c++)
+
+        if (Random.Range(0, floor.Length) == floor.Length)
         {
-            for (int a = 0; a < x + 7; a++)
+            for (int b = 0; b < 8; b++)
             {
-                world[new Vector3Int(x + a, y, z + c)] = block;
+                for (int a = 0; a < 8; a++)
+                {
+                    for (int c = 0; c < 8; c++)
+                    {
+                        world[new Vector3Int(x + a, y + b, z + c)] = block;
+                    }
+                }
             }
         }
+        else
+        {
+            chunk(DunGenPos.x, DunGenPos.y, DunGenPos.z, "stone", 1, 0, 1);
+        }
     }
-    void makeFloor(GameObject floortype)
+    void chunk(int x, int y, int z, string block, int useA, int useB, int useC)
     {
-        //
-        Instantiate(chosenFloor, DunGenPos, chosenFloor.transform.rotation);
+        //8x8 chunk.
+        //useA = 0 will make a wall perpendicular to the player
+        //useB = 0 will make a flat platform
+        //useC = 0 will make a wall facing the player
+        for (int c = 0; c < 8 * useA; c++)
+        {
+            for (int b = 0; b < 8 * useB; c++)
 
+                for (int a = 0; a < 8 * useC; a++)
+                {
+                    world[new Vector3Int(x + a, y + b, z + c)] = block;
+                }
+        }
     }
 }
 

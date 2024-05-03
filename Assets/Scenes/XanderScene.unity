@@ -1449,55 +1449,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!4 &239328349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8713695629328237717, guid: 9c32bcf6e74b74084a61d268f7549a1f, type: 3}
@@ -1724,7 +1724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &322463970 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 384583917}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &323034509
@@ -1882,55 +1882,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!1001 &399280610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2210,7 +2210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &443903592 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 686685293}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &446969194 stripped
@@ -2340,55 +2340,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!4 &479300737 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3713740097620974531, guid: 8e03fefa6e11e7a49ab4d99853f2cfa0, type: 3}
@@ -3198,7 +3198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &616765890 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 1005219675}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &621103282 stripped
@@ -3593,55 +3593,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!4 &687750117 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8672927867372756524, guid: c1825690d7eb746ddb3fa56ff00dd78e, type: 3}
@@ -4021,13 +4021,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e27655e3bc541719374012e39d93e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: -4, y: -1, z: -4}
-  capPos: {x: 8, y: 1, z: 8}
+  startPos: {x: 0, y: -16, z: 0}
+  capPos: {x: 4, y: 4, z: 4}
+  stone: {fileID: 8788149377043742459, guid: 9ff1750ebbbf44c30969e6ed90024504, type: 3}
   floor:
   - {fileID: 5361056941034984709, guid: 69a9f9a227b7a47f194f126f161c621b, type: 3}
   - {fileID: 5361056941034984709, guid: 69a9f9a227b7a47f194f126f161c621b, type: 3}
-  - {fileID: 926017243543110852, guid: e2d092c4e44b44c2b8764306c1622361, type: 3}
   - {fileID: 5361056941034984709, guid: 69a9f9a227b7a47f194f126f161c621b, type: 3}
+  - {fileID: 926017243543110852, guid: e2d092c4e44b44c2b8764306c1622361, type: 3}
   room:
   - {fileID: 8954870664742453809, guid: 1914026ccbc244132a6ecc0889f86934, type: 3}
   - {fileID: 926017243543110852, guid: 9d92adf9fd79a4b65be080d5be64b8e2, type: 3}
@@ -4618,7 +4619,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &884566992 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 1686456323}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &897423644 stripped
@@ -4813,7 +4814,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c1825690d7eb746ddb3fa56ff00dd78e, type: 3}
 --- !u!4 &956999412 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 2146751402}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &968229182
@@ -4971,55 +4972,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!1001 &1006687309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5251,55 +5252,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!1001 &1066071014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6134,7 +6135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1226362494 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 227151648}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1234265990 stripped
@@ -7595,7 +7596,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9c32bcf6e74b74084a61d268f7549a1f, type: 3}
 --- !u!4 &1480568423 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 2091119327}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1481561993
@@ -7975,55 +7976,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!1001 &1535414367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8604,7 +8605,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1632779750 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 1701500190}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1636322593
@@ -8850,7 +8851,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 9c32bcf6e74b74084a61d268f7549a1f, type: 3}
 --- !u!4 &1658850527 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 477767176}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1662776352 stripped
@@ -8927,55 +8928,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!1001 &1689690429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9111,55 +9112,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!1 &1713788297
 GameObject:
   m_ObjectHideFlags: 0
@@ -9185,7 +9186,7 @@ Transform:
   m_GameObject: {fileID: 1713788297}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9200,58 +9201,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!4 &1729942445 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 1717986802}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1732154212 stripped
@@ -9573,7 +9574,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1781473808 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 1062635569}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1789755606 stripped
@@ -9732,58 +9733,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!4 &1863959501 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 1528758804}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1864560213
@@ -10413,7 +10414,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c1825690d7eb746ddb3fa56ff00dd78e, type: 3}
 --- !u!4 &1991464768 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
   m_PrefabInstance: {fileID: 1861672578}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1994010700
@@ -11124,55 +11125,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!1001 &2114002010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11308,55 +11309,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339169393}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 4495154372978951816, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
+      propertyPath: m_Name
+      value: AcaciaWood (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.y
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+    - target: {fileID: 7357015789877507290, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
-      propertyPath: m_Name
-      value: AcaciaLogBlock (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ca4bf217e90e4c48a6dd5abec3025dc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5de2f71e270504d9f8b37b536b6112c3, type: 3}
 --- !u!1001 &1021572309292625432
 PrefabInstance:
   m_ObjectHideFlags: 0
