@@ -76,6 +76,10 @@ public class DungeonFloorGen : MonoBehaviour
             }
 
         }
+        for (int b = 0; b < 8; b++)
+        {
+            world[new Vector3Int(x, y + b, z)] = block;
+        }
         if (Random.Range(0, floor.Length + 1) == floor.Length)
         {
             //make stairs
