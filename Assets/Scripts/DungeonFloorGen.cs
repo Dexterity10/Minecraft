@@ -62,16 +62,21 @@ public class DungeonFloorGen : MonoBehaviour
     }
     void makeFloor(int x, int y, int z, string block) //also makes ceiling; alternatively, creates stairs
     {
-
+        //make floor
         for (int a = 0; a < 8; a++)
         {
 
             for (int c = 0; c < 8; c++)
             {
                 world[new Vector3Int(x + a, y, z + c)] = block;
+
+                // if the coord is touching the corner of the room, make a wall
                 if ((x + a) % 8 == 0 || (z + c) % 8 == 0)
                 {
-                    world[new Vector3Int(x + a, y + 1, z + c)] = block;
+                    for (int b = 0; b < 8; b++)
+                    {
+                        world[new Vector3Int(x + a, y + 1, z + c)] = block;
+                    }
                 }
             }
 
@@ -82,17 +87,37 @@ public class DungeonFloorGen : MonoBehaviour
         }
         if (Random.Range(0, floor.Length + 1) == floor.Length)
         {
+            int stairDir = Random.Range(0, 2); //pick 0 or 1
+            int stairAbs = Random.Range(1, 3); //pick 1 or 2
             //make stairs
-            for (int ab = 0; ab < 8; ab++)
+            for (int ab = 0; ab < 8; ab++) //can I put an if statement inside a for loop?
             {
 
                 for (int c = 0; c < 8; c++)
                 {
-                    world[new Vector3Int(x + ab, y + ab, z + c)] = block;
+                    //if (stairDir == 0) //pick a random stair direction
+                    //{
+                        world[new Vector3Int(x + ab * ((-1) ^ stairAbs), y + ab, z)] = block;
+                    //}
+                    //else
+                    //{
+                    //    world[new Vector3Int(x, y + ab, z + ab * ((-1) ^ stairAbs))] = block;
+                    //}
+                }
+
+            }
+            //make space for stairs to connect to next floor
+            for (int a = 0; a < 8; a++)
+            {
+
+                for (int c = 0; c < 8; c++)
+                {
+                    world[new Vector3Int(x + a, y + 8, z + c)] = "air";
 
                 }
 
             }
+
         }
         else
         { //make ceiling
