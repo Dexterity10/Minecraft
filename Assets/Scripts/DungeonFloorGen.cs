@@ -69,7 +69,10 @@ public class DungeonFloorGen : MonoBehaviour
             for (int c = 0; c < 8; c++)
             {
                 world[new Vector3Int(x + a, y, z + c)] = block;
-
+                if ((x + a) % 8 == 0 || (z + c) % 8 == 0)
+                {
+                    world[new Vector3Int(x + a, y + 1, z + c)] = block;
+                }
             }
 
         }
@@ -94,7 +97,7 @@ public class DungeonFloorGen : MonoBehaviour
 
                 for (int c = 0; c < 8; c++)
                 {
-                    world[new Vector3Int(x + a, y + 7, z + c)] = block;
+                    world[new Vector3Int(x + a, y + 8, z + c)] = block;
 
                 }
 
