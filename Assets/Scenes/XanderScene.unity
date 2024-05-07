@@ -4022,11 +4022,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPos: {x: 0, y: 0, z: 0}
-  capPos: {x: 4, y: 4, z: 4}
+  capPos: {x: 5, y: 16, z: 5}
   stone: {fileID: 8788149377043742459, guid: 9ff1750ebbbf44c30969e6ed90024504, type: 3}
   floor:
-  - {fileID: 5361056941034984709, guid: 69a9f9a227b7a47f194f126f161c621b, type: 3}
-  - {fileID: 5361056941034984709, guid: 69a9f9a227b7a47f194f126f161c621b, type: 3}
   - {fileID: 5361056941034984709, guid: 69a9f9a227b7a47f194f126f161c621b, type: 3}
   - {fileID: 926017243543110852, guid: e2d092c4e44b44c2b8764306c1622361, type: 3}
   room:
